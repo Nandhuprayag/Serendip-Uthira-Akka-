@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            background-color: #91d88182;
+            text-align: center;
+
+
+        }
+        #demo{
+            width: 250px;
+            height: 200px;
+            /* text-align: center; */
+            border: 1px solid grey;
+            background-color: #e2f3d5;
+            display: flex;
+            flex-wrap: wrap;flex-direction: row;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3 style="color: grey;">Welcome to New Year!..</h3>
+    <div id="demo"></div>
+</body>
+    <script >
+        var myDiv=document.getElementById("demo");
+        myDiv.style.fontSize="50px";
+        myDiv.style.textAlign="center"; 
+        // myDiv.style.width="310px";myDiv.style.height="400px";myDiv.style.border="2px solid grey"
+        // myDiv.style.display="flex";myDiv.style.flexWrap="wrap";
+
+            setTimeout(function()
+            {
+                myDiv.innerText=10;
+                setTimeout(function()
+                {
+                    myDiv.innerText=9;
+                    setTimeout(function()
+                    {
+                        myDiv.innerText=8;
+                        setTimeout(function()
+                        {
+                            myDiv.innerText=7;
+                        })
+                        setTimeout(function()
+                        {
+                            myDiv.innerText=6;
+                            setTimeout(function()
+                            {
+                                myDiv.innerText=5;
+                                setTimeout(function()
+                                {
+                                    myDiv.innerText=4;
+                                    setTimeout(function()
+                                    {
+                                        myDiv.innerText=3;
+                                        setTimeout(function(){
+                                            myDiv.innerText=2;
+                                            setTimeout(function()
+                                            {
+                                                myDiv.innerText=1;
+                                                setTimeout(function()
+                                                {
+                                                    myDiv.innerText='Happy Birthday Uthira !';
+                                                    setTimeout(function()
+                                                    {
+                                                        {
+                                                            setTimeout(function()
+                                                            {
+
+                                                                myDiv.innerText="Have a Great Year 2022!"
+                                                                
+                                                            })
+                                                        }
+                                                    },1000)
+                                                    
+                                                },1000)
+                                            },1000)
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+
+
+
+                
+
+
+                
+            
+            
+
+            document.body.appendChild(myDiv)
+        
+    
+
+
+
+
+
+    </script>
+
+
+</html>
+
+
+
